@@ -27,7 +27,7 @@ public class DefaultConfigurationTest {
         //However, because other tests make changes to the global WireMock configuration,
         //we have to make the same changes here because we don't know the invocation
         //order of our test classes.
-        //configureFor("localhost", 8080);
+        configureFor("localhost", 8080);
     }
 
     @Test
